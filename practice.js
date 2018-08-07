@@ -15,7 +15,9 @@
 */
 
 //Code here
+let me = {name: 'Alex', age: 19}
 
+//alert(me.name)
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +28,7 @@
 */
 
 //Code here
-
+let favoriteThings = {band: 'rubber', food: 'edible', person: 'nice', book: 'good', movie: 'funny', holiday: 'happy'}
 
 
 /*
@@ -34,7 +36,8 @@
 */
 
 //Code here
-
+favoriteThings.car = 'fast'
+favoriteThings.brand = 'TM'
 
 
 /*
@@ -43,7 +46,8 @@
 
 //Code here
 
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
@@ -57,15 +61,16 @@
 
 //Code here
 
-
-
+let backPack = {firstPocket: 'chapstick'}
+var item = 'firstPocket'
+backPack.color = 'orange'
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
-
+//alert(backPack)
+//console.log(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -75,7 +80,10 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
-
+/*console says:
+color:"orange"
+firstPocket:"chapstick"
+*/
 
 ////////// PROBLEM 4 //////////
 
@@ -98,7 +106,8 @@ var user2 = {
 
 //Code Here
 
-
+user2.name = 'Tyler S. McGinnis'
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
