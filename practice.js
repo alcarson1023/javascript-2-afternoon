@@ -130,6 +130,10 @@ user2.email = 'tyler.mcginnis@devmounta.in'
 
 //Code Here
 
+var methodCollection = {
+  alertHello: function(){alert('hello')},
+  logHello: function(){console.log('hello')}
+}
 
 
 /*
@@ -158,7 +162,10 @@ user2.email = 'tyler.mcginnis@devmounta.in'
 
 //Code Here
 
-
+function makePerson(name,birthday,ssn){
+  var person = {name: name, birthday: birthday, ssn: ssn}
+  return person
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -168,5 +175,8 @@ user2.email = 'tyler.mcginnis@devmounta.in'
 */
 
 //Code Here
-
+function makeCard(num,exp,code){
+  let creditCard={number:num,expiration:exp,code:code}
+  return creditCard
+}
 
